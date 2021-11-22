@@ -16,6 +16,7 @@
 		4A77F880274C065E0073EE1B /* ExDatePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A77F87F274C065E0073EE1B /* ExDatePickerTests.swift */; };
 		4A77F88A274C065E0073EE1B /* ExDatePickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A77F889274C065E0073EE1B /* ExDatePickerUITests.swift */; };
 		4A77F88C274C065E0073EE1B /* ExDatePickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A77F88B274C065E0073EE1B /* ExDatePickerUITestsLaunchTests.swift */; };
+		4A77F899274C0F060073EE1B /* TimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A77F898274C0F060073EE1B /* TimerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4A77F885274C065E0073EE1B /* ExDatePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExDatePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A77F889274C065E0073EE1B /* ExDatePickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExDatePickerUITests.swift; sourceTree = "<group>"; };
 		4A77F88B274C065E0073EE1B /* ExDatePickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExDatePickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A77F898274C0F060073EE1B /* TimerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				4A77F868274C065D0073EE1B /* AppDelegate.swift */,
 				4A77F86A274C065D0073EE1B /* SceneDelegate.swift */,
 				4A77F86C274C065D0073EE1B /* ViewController.swift */,
+				4A77F898274C0F060073EE1B /* TimerVC.swift */,
 				4A77F86E274C065D0073EE1B /* Main.storyboard */,
 				4A77F871274C065E0073EE1B /* Assets.xcassets */,
 				4A77F873274C065E0073EE1B /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				4A77F86D274C065D0073EE1B /* ViewController.swift in Sources */,
 				4A77F869274C065D0073EE1B /* AppDelegate.swift in Sources */,
+				4A77F899274C0F060073EE1B /* TimerVC.swift in Sources */,
 				4A77F86B274C065D0073EE1B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
