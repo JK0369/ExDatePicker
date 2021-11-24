@@ -10,7 +10,6 @@ import UIKit
 class TimerVC: UIViewController {
     
     private var timer = Timer()
-    private var startTime: Date?
     
     lazy var countDownDatePicker: UIDatePicker = {
         let picker = UIDatePicker()
@@ -60,12 +59,11 @@ class TimerVC: UIViewController {
     }
     
     @objc func didTapConfirmButton() {
-        startTime = Date()
         setTimer(with: countDownDatePicker.countDownDuration)
     }
     
     private func setTimer(with countDownSeconds: Double) {
-        guard let startTime = startTime else { return }
+        let startTime = Date()
         timer.invalidate()
         
         timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { [weak self] timer in
